@@ -17,7 +17,10 @@ def search():
     os.system('sudo pacman -Ss' + " " + packageName.get())
 
 def installAUR():
-    os.system('git clone' + packageName.get)
+    os.system('git clone https://aur.archlinux.org/' + packageName.get() + ".git")
+    os.system('cd' packageName.get())
+    os.system('makepkg -si')
+    os.system('cd -')
 
 root = tkinter.Tk()
 root.configure(padx=30, pady=30, background="white")

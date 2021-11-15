@@ -18,9 +18,6 @@ def search():
 def clean():
     os.system('sudo apt autoremove' + " " + packageName.get())
 
-def installAUR():
-    os.system('git clone' + packageName.get)
-
 root = tkinter.Tk()
 root.configure(padx=30, pady=30, background="white")
 
