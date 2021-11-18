@@ -18,7 +18,7 @@ def search():
 
 def installAUR():
     os.system('git clone https://aur.archlinux.org/' + packageName.get() + ".git")
-    os.system('cd' packageName.get())
+    os.system('cd' + " " + packageName.get())
     os.system('makepkg -si')
     os.system('cd -')
 

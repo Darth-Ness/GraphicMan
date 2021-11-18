@@ -39,8 +39,6 @@ button5.pack(anchor=tkinter.NW, side=tkinter.LEFT)
 button6 = tkinter.Button(text="Clean", command=clean)
 button6.pack(anchor=tkinter.NW, side=tkinter.LEFT)
 
-button7 = tkinter.Button(text="install from AUR", command=installAUR)
-button7.pack(anchor=tkinter.NW, side=tkinter.LEFT)
 
 packageName = tkinter.Entry(root, text='Hello there!')
 packageName.pack()
