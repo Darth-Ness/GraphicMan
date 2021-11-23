@@ -8,3 +8,11 @@ Arch users! You can also use this as a AUR helper.
 # Dependencies
 
 Make you have Tkinter installed if you want to use this.
+
+# Install instructions
+Run the following in your terminal
+ ```bash
+    git clone https://github.com/Darth-Ness/GraphicMan.git
+    cd GraphicMan
+ ```
+ Then run the appropriate file with python3 (run arch.py if you run Arch/Manjaro/Garuda etc. run debian.py if you use Debian/Ubuntu/Linux Mint/ElementryOS etc.)
